@@ -22,32 +22,121 @@
     <hr>
 
     <div id='section-1' class='section'>
-        <h2>Samples of whisper-to-speech conversion</h2>
-        <p class="text3">hello world! some description coming soon!</p>
+        <p class="text3">This demo page presents samples for the “Streaming ASR encoder for whisper-to-speech
+            online voice conversion” paper. Here are examples of default whisper (original whisper), PPG-VC approach
+            (ppg_original) and two our conversion systems (default_hubert and our_hubert). </p>
     <table>
         <tr>
             <td>
+                <h4>CHAINS dataset</h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <div class="labeled-audio">
-                    <p><label class="text4" for="sample1">original whisper</label></p>
-                    <p><audio id="sample1" preload='metadata' controls><source src='samples/irm04_s18/orignal_whisper.wav' type='audio/wav'></audio></p>
+                    <p><label class="text4">original whisper</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm04_s18/orignal_whisper.wav' type='audio/wav'></audio></p>
                 </div>
             </td>
             <td>
                 <div class="labeled-audio">
-                    <p><label class="text4" for="sample2">ppg_original</label></p>
-                    <p><audio id="sample2" preload='metadata' controls><source src='samples/irm04_s18/ppg_original.wav' type='audio/wav'></audio></p>
+                    <p><label class="text4">ppg_original</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm04_s18/ppg_original.wav' type='audio/wav'></audio></p>
                 </div>
             </td>
             <td>
                 <div class="labeled-audio">
-                    <p><label class="text4" for="sample3">default_hubert</label></p>
-                    <p><audio id="sample3" preload='metadata' controls><source src='samples/irm04_s18/default_hubert.wav' type='audio/wav'></audio></p>
+                    <p><label class="text4">default_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm04_s18/default_hubert.wav' type='audio/wav'></audio></p>
                 </div>
             </td>
             <td>
                 <div class="labeled-audio">
-                    <p><label class="text4" for="sample4">our_hubert</label></p>
-                    <p><audio id="sample4" preload='metadata' controls><source src='samples/irm04_s18/our_hubert.wav' type='audio/wav'></audio></p>
+                    <p><label class="text4">our_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm04_s18/our_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">original whisper</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm03_f01/original_whisper.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">ppg_original</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm03_f01/ppg_original.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">default_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm03_f01/default_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">our_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/irm03_f01/our_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <h4>SPONTAN dataset</h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">original whisper</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0015_airpods_bpd/original_whisper.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">ppg_original</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0015_airpods_bpd/ppg_original.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">default_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0015_airpods_bpd/default_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">our_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0015_airpods_bpd/our_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">original whisper</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0017_macmic_stu/original_whisper.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">ppg_original</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0017_macmic_stu/ppg_original.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">default_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0017_macmic_stu/default_hubert.wav' type='audio/wav'></audio></p>
+                </div>
+            </td>
+            <td>
+                <div class="labeled-audio">
+                    <p><label class="text4">our_hubert</label></p>
+                    <p><audio preload='metadata' controls><source src='samples/0017_macmic_stu/our_hubert.wav' type='audio/wav'></audio></p>
                 </div>
             </td>
         </tr>

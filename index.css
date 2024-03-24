@@ -188,3 +188,19 @@ p {
     margin: 0px 20%;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 40em) {
+    thead th:not(:first-child) {
+        display: none;
+    }
+
+    td, th {
+        display: block;
+        width: 100%;
+    }
+
+    td[data-th]:before  {
+        content: attr(data-th);
+        width: 100%;
+    }
+}
